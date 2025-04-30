@@ -89,33 +89,6 @@
                             communication between UVs, C2 and seabed systems.
                         </p>
 
-                        <p><b>Optimising range and bandwidth:</b></p>
-                        <p>Acoustic propagation modelling can provide modems with information that allows them to select
-                            carrier frequencies that maximise bandwidth to a target. Knowledge of when and where a UV is
-                            likely to experience communication interruptions due to shadowing or congestion is critical
-                            in mission planning. Transmission loss estimation enables mission power budget planning.</p>
-
-                        <p><b>Mitigating multipath effects:</b></p>
-                        <p>By simulating how sound interacts with the sea floor and surface, a simulator can help select
-                            modulation, coding schemes and equalisation strategies</p>
-
-
-                        <p><b>Network Formation:</b></p>
-                        <p>Models can predict connectivity between nodes and their feasibility as communication relays.
-                        </p>
-
-                        <p><b>Responding to environmental changes: </b></p>
-                        <p>Real-time simulators ingest environmental data and the locations to provide more accurate
-                            simulations.</p>
-
-
-                        <p><b>Transmit/receive vector selection:</b></p>
-                        <p>By simulating the propagation of thousands of wave fronts, optimal transmit/receive vectors
-                            can be determined. Directional transducers orientated through a mechanical or a phased array
-                            system can utilise this knowledge to improve signal quality. Alternatively, the UV could be
-                            rotated using control surfaces if a dedicated directional system is not present</p>
-
-
                         <p>Our acoustic model extends the Bellhop model with adaptive splitting to simulate diffraction,
                             specular reflection and diffuse scattering off the seabed floor; splitting wavefronts into
                             smaller beams when they encounter edges or curved surfaces. Adaptive splitting is a commonly
@@ -123,15 +96,15 @@
                             acoustic simulators. This feature allows the simulator to model the acoustic interactions at
                             the seabed floor, sea surface boundaries and other objects such as shipwrecks and undersea
                             infrastructure. The engine will provide an API to continuously ingest environmental data sea
-                            temperatures, altimetry, locations of other UV’s and other undersea objects improve the
-                            accuracy of simulations. The engine will track all nearby UV’s and keep records of their
+                            temperatures, altimetry, locations of other UVs and other undersea objects improve the
+                            accuracy of simulations. The engine will track all nearby UVs and keep records of their
                             transducer physical models. It will perform a network analysis to determine if friendly UVs
                             or underwater systems can be used to as relays to extend range or allow communication in
                             shadow zones. We will integrate the ns-miracle network simulator to allow the simultaneous
                             evaluation of multiple protocols, frequencies and routes in real time.</p>
 
 
-                            
+
                         <p></p>
                         <p></p>
 
