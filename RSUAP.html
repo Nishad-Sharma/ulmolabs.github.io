@@ -116,7 +116,22 @@
                             rotated using control surfaces if a dedicated directional system is not present</p>
 
 
-                        <p></p>
+                        <p>Our acoustic model extends the Bellhop model with adaptive splitting to simulate diffraction,
+                            specular reflection and diffuse scattering off the seabed floor; splitting wavefronts into
+                            smaller beams when they encounter edges or curved surfaces. Adaptive splitting is a commonly
+                            used technique in architectural acoustic simulation but has not been adopted by underwater
+                            acoustic simulators. This feature allows the simulator to model the acoustic interactions at
+                            the seabed floor, sea surface boundaries and other objects such as shipwrecks and undersea
+                            infrastructure. The engine will provide an API to continuously ingest environmental data sea
+                            temperatures, altimetry, locations of other UV’s and other undersea objects improve the
+                            accuracy of simulations. The engine will track all nearby UV’s and keep records of their
+                            transducer physical models. It will perform a network analysis to determine if friendly UVs
+                            or underwater systems can be used to as relays to extend range or allow communication in
+                            shadow zones. We will integrate the ns-miracle network simulator to allow the simultaneous
+                            evaluation of multiple protocols, frequencies and routes in real time.</p>
+
+
+                            
                         <p></p>
                         <p></p>
 
